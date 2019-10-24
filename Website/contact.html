@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Murdo Watson">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="personal website, portfolio, web design, coding, html, css, javascript, graphic design, java, Murdo Watson">
+    <meta name="description" content="Professional portfolio and personal projects.">
+
+    <title>Murdo Watson Website | Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script data-cfasync="false" src="./js/form-submission-handler.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+        <div class="container">
+          <div id="branding">
+            <h1>Murdo Watson - <span class="highlight">Portfolio</span></h1>
+          </div>
+            <nav>
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="current"><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title"></h1>
+          <ul id="services">
+            <li>
+              <h3>Website Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.</p>
+            </li>
+            <li>
+              <h3>Graphic Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.</p>
+            </li>
+            <li>
+              <h3>Programming</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.</p>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+          <h3>Get In Touch</h3>
+          <form class="gform pure-form pure-form-stacked" method"POST" action="https://script.google.com/macros/s/AKfycbyHvhxlMjYcNTQk8VYnx5eMTTcOFXL6SXGTAy7LTt7H2gJsJM4/exec">
+            <div class="form-elements">
+            <div>
+                <label>Name</label><br>
+                <input id="name" name="name" required type="text" placeholder="Name">
+              </div>
+              <div>
+                <label>Email</label><br>
+                <input id="email" name="email" required type="Email" placeholder="example@email.com">
+              </div>
+              <div>
+                <label>Message</label><br>
+                <textarea id="message" name="message"required placeholder="Message"></textarea>
+              </div>
+                <label for="honeypot"></label>
+                <input id="honeypot" type="text" name="honeypot" value>
+              <button class="button-success pure-button button-xlarge" id="button_1">Send</button>
+            </div>
+            <div class="thankyou_message" style="display:none;">
+              <h3>
+                Thanks for contacting me!<br>
+                I will get back to you soon.
+              </h3>
+            </div>
+          </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Murdo Watson Portfolio, Copyright &copy; 2019</p>
+    </footer>
+
+
+  </body>
+</html>

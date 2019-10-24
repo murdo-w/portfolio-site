@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Murdo Watson">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="personal website, portfolio, web design, coding, html, css, javascript, graphic design, java, Murdo Watson">
+    <meta name="description" content="Professional portfolio and personal projects.">
+
+    <title>Murdo Watson Website | Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/gallery.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <div class="container">
+          <div id="branding">
+            <h1>Murdo Watson - <span class="highlight">Portfolio</span></h1>
+          </div>
+            <nav>
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="current"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="gallery">
+          <img src="./img/folio/1.png" alt="Save The Arctic - 1" onclick="myFunction(this);">
+          <img src="./img/folio/3.png" alt="Graded Unit - 1" onclick="myFunction(this);">
+          <img src="./img/folio/6.png" alt="3ds Max - 2" onclick="myFunction(this);">
+          <img src="./img/folio/8.png" alt="Life Drawing - 2" onclick="myFunction(this);">
+    </div>
+
+    <div class="img_container">
+      <span onclick="this.parentElement.style.display='none'"class="closebtn">&times;</span>
+      <img id="expandedImg">
+      <div id="imgtext"></div>
+    </div>
+
+
+    <section id="newsletter">
+      <div class="container">
+        <!--  <h1>Subscribe To My Newsletter</h1>
+          <form>
+            <input type="email" placeholder="example@email.com">
+            <button type="submit" class="button_1">Subscribe</button>
+          </form>-->
+      </div>
+    </section>
+
+    <div class="masonryholder">
+      <div class="masonryblocks"><img src="./img/folio/1.png">Save The Arctic - 1<br>
+        1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.
+      </div>
+      <div class="masonryblocks"><img src="./img/folio/2.png">Save The Arctic - 2<br>
+        2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet.
+      </div>
+      <div class="masonryblocks"><img src="./img/folio/3.png">Graded Unit - 1<br>
+        3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+      <div class="masonryblocks"><img src="./img/folio/4.png">Graded Unit - 2<br>
+        4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.
+      </div>
+      <div class="masonryblocks"><img src="./img/folio/5.png">3ds Max - 1<br>
+        5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit.
+      </div>
+      <div class="masonryblocks"><img src="./img/folio/6.png">3ds Max - 2<br>
+        6 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.
+      </div>
+      <div class="masonryblocks"><img src="./img/folio/7.png">Life Drawing - 1<br>
+        7 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.
+      </div>
+      <div class="masonryblocks"><img src="./img/folio/8.png">Life Drawing - 2<br>
+        8 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.
+      </div>
+      <div class="masonryblocks"><img src="./img/folio/9.png">Life Drawing - 3<br>
+        9 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus diam velit, pellentesque sed condimentum sit amet, pellentesque eu turpis.
+      </div>
+    </div>
+
+    <footer>
+      <p>Murdo Watson Portfolio, Copyright &copy; 2019</p>
+    </footer>
+  </body>
+</html>
